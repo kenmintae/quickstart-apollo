@@ -1,0 +1,44 @@
+{
+  "name": "react-apollo-instagram-example",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "prettier-eslint-cli": "^4.4.0"
+  },
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.6.2",
+    "apollo-client": "^2.6.2",
+    "apollo-link": "^1.2.11",
+    "apollo-link-http": "^1.5.14",
+    "graphql": "^14.3.1",
+    "graphql-tag": "^2.10.1",
+    "react": "^16.8.6",
+    "react-apollo": "^2.5.6",
+    "react-dom": "^16.8.6",
+    "react-modal": "^3.8.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^3.0.1",
+    "tachyons": "^4.9.0",
+    "typescript": "^3.5.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "prettier": "prettier-eslint --write \"src/**/*.+(js|jsx)\"",
+    "prettier-dry-run": "prettier-eslint \"src/**/*.+(js|jsx)\" -l debug"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
